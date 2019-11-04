@@ -1,6 +1,6 @@
 # Heading
 
-In many cases the Content Manager wants to control the element type used for headings. Semantics and
+In some cases the Content Manager wants to control the element type used for headings. Semantics and
 SEO might be the argument to want to change the type of heading used. Having them as options in the
 mock-data will steer the backend developer into implementing this feature. As a developer we might
 want to keep control over the styling. We can do this by using our default type styling or/adding
