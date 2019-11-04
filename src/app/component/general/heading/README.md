@@ -24,7 +24,6 @@ subtitle:
 ```hbs
 {{> general/heading main-title class="heading-1 main-title" }}
 {{> general/heading sub-title }}
-- copy:
 ```
 
 ## Static HTML result:
