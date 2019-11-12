@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="./cta.scss">
+
+<{{#if type}}{{type}}{{else}}a{{/if}}{{#unless type}} href="{{#if href}}{{href}}{{else}}#{{/if}}"{{/unless}} class="cta{{#if class}} {{class}}{{/if}}"{{#if title}} title="{{title}}"{{/if}}{{#if target}} target="{{target}}"{{/if}}>
+  {{#if copy}}{{copy}}{{else}}Read More{{/if}}
+</{{#if type}}{{type}}{{else}}a{{/if}}>
